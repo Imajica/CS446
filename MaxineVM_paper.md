@@ -20,3 +20,7 @@ a pointer to an external heavyweight locking data structure that relies on OS mu
 functions to handle contention.
 
 How is it aware if there is contention?
+
+- asbdasd
+- asbdasdasdasdsadasd
+- 
