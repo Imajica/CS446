@@ -21,6 +21,10 @@ functions to handle contention.
 
 How is it aware if there is contention?
 
-- asbdasd
-- asbdasdasdasdsadasd
-- 
+> Code pointers are distinguished from object references
+and known to the optimizing compiler, which produces separate reference maps for
+pointers to compiled code on the stack
+
+- **Boot Image generation** Maxine VM is said to replace HotSpot VM however it uses the HotSpot VM for the boot image generation?
+
+The key point of the paper is the Maxine VM for Java. Maxine VM is an open source project written in Java in order to benefit from the high-level language programming.The architecture of the VM is highly modular enabling alternate subsystem implementations to be plugged in. The main focus of the authors is not only the efficiency but also on creating an approachable VM. The approachability features include the Maxine Inspector - a visualizer/debugger for the Maxine VM implementation, Boot Image generaton - how Maxine VM is compiled from Java source code to machine code and run using a host VM.
